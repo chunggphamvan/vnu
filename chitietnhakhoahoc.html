@@ -1,0 +1,568 @@
+<!-- https://www.figma.com/file/Ba2avjHpSUZJdETBsDCpco/VSL?node-id=0%3A1 -->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tin tức & Sự kiện - Đại học quốc gia Hà Nội</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/tailwindcss@2.0.1/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="/assets/css/chitietnhakhoahoc.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body id="main">
+    <!-- header -->
+    <div id="header" class="px-0">
+      <div class="">
+        <div class="bg-green rounded-lg">
+          <div class="container mx-auto flex justify-between items-center text-white text-base font-light leading-6">
+            <div id="link-header" class="col-md-6">
+              <div class="flex justify-between items-center">
+                <div class="">
+                  <a class="hover-underline" href="">Tài nguyên số</a>
+                </div>
+
+                <div class="">
+                  <a class="hover-underline"href="">Thư viện</a>
+                </div>
+
+                <div class="">
+                  <a class="hover-underline"href="">Văn bản</a>
+                </div>
+
+                <div class="">
+                  <a class="hover-underline"href="">Email</a>
+                </div>
+
+                <div class="">
+                  <a class="hover-underline"href="">Liên hệ</a>
+                </div>
+
+                <div class="">
+                  <a class="hover-underline"href="">Sitemap</a>
+                </div>
+              </div>
+            </div>
+            
+            <div id="menu-header" class="col-md-6">
+              <div class="flex justify-between items-center">
+                <div class="icon-search">
+                  <i class="fa fa-search icon"></i>
+                  <input class="input-search" type="text" placeholder="Tìm kiếm" />
+                </div>
+
+                <div>
+                  <nav class="navbar navbar-expand-lg">
+                    <div class="collapse navbar-collapse">
+                      <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle hover:text-white" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false" data-toggle="dropdown">Các đơn vị thành viên và trực thuộc VNU</a>
+
+                          <div class="dropdown-menu text-sm font-light line-22">
+                            <a class="dropdown-item" href="">Trường đại học thành viên</a>
+                            <a class="dropdown-item" href="">Trường đại học trực thuộc</a>
+                            <a class="dropdown-item" href="">Viện nghiên cứu</a>
+                            <a class="dropdown-item" href="">Trung tâm Đào tạo & Nghiên cứu</a>
+                            <a class="dropdown-item" href="">Đơn vị phục vụ</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+
+                <div>
+                  <a href=""><img src="./assets/image/england.png" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mx-auto flex justify-start items-center my-4">
+          <div class="">
+            <a href=""><img src="./assets/image/logo-vnu.svg" alt="" /></a>
+          </div>
+
+          <div class="">
+            <a href=""><img src="./assets/image/logo-vsl.svg" alt="" /></a>
+          </div>
+        </div>
+
+
+          <nav id="nav-main" class="navbar navbar-expand-lg bd-green px-2 py-0">
+            <div class="container collapse navbar-collapse">
+              <ul class="navbar-nav flex justify-between w-full">
+                <li class="nav-item">
+                  <a class="nav-link active text-base font-light leading-6" href=""
+                    >Trang chủ</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-base font-light leading-6"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                    Hoạt động</a>
+
+                  <div class="dropdown-menu text-sm font-light line-22" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="">
+                      VSL - Talk
+                    </a>
+
+                    <a class="dropdown-item" href="" > VSL - Writing Camp </a>
+                    <a class="dropdown-item" href="" > VSL - Workshop </a>
+                    <a class="dropdown-item" href="" > VSL - Training </a>
+                    <a class="dropdown-item" href="" > Dự án, chương trình khác </a>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-base font-light leading-6" href="" >Tin tức & Sự kiện</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-base font-light leading-6" role="button" data-bs-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Nhà khoa học</a
+                  >
+
+                  <div class="dropdown-menu text-sm font-light line-22" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="" > Nhà Khoa học tiêu biểu </a>
+                    <a class="dropdown-item" href="" > Nhóm nghiên cứu </a>
+                    <a class="dropdown-item" href="" > Tin tức KHCN </a>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-base font-light leading-6" href="" >Liên hệ</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-base font-light leading-6" href="" >Cơ hội hợp tác</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-base font-light leading-6" href="" >Quyên góp, tài trợ, sản phẩm</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-base font-light leading-6" role="button" data-bs-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >VB liên quan</a
+                  >
+
+                  <div class="dropdown-menu dropdown-menu-right text-sm font-light line-22" aria-labelledby="navbarDropdown"> 
+                    <a class="dropdown-item" href="" > Văn bản Câu lạc bộ </a>
+                    <a class="dropdown-item" href="" > Văn bản ĐHQG </a>
+                    <a class="dropdown-item" href="" > Văn bản Bộ ngành </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+    </div>
+    
+    <!--Content-->
+<div id="main-content">
+  <div id="title-link" class="container mx-auto">
+    <h2 class="text-3xl uppercase font-semibold vnu-clor-green-v2 title-page">
+      <a href="">Nhà khoa học tiêu biểu</a>
+    </h2>
+  </div>
+  <div>
+    <div id="breadcrumb-link" class="container mx-auto">
+      <nav aria-label="breadcrumb" class="py-3">
+        <ol class="breadcrumb mb-0 p-0">
+          <li class="breadcrumb-item vnu-clor-gray text-sm font-normal">
+            <a href="">Trang chủ</a>
+          </li>
+          <li class="breadcrumb-item vnu-clor-gray text-sm font-normal">
+            <a href="">Nhà khoa học</a>
+          </li>
+          <li class="breadcrumb-item vnu-clor-gray text-sm font-bold">
+            <a href="">Nhà khoa học tiêu biểu</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container mx-auto">
+  <div class="row" id="new-12">
+    <div class="col col-md-4">
+    <div class="box-shadow-v2">
+        <div>
+            <a
+              href=""
+            >
+              <img
+                src="./assets/image/VNUHoalac2022.jpg"
+                class="w-full rounded-lg drop-shadow-md img-h"
+              />
+            </a>
+          </div>
+        <div class="px-4 py-4">
+          <h3 class="">
+            <a
+              class="text-lg vnu-clor-gray text-lg font-semibold font-family-bold"
+              href=""
+            >
+              PGS.TS NGUYỄN HOÀNG HẢI
+            </a>
+          </h3>
+          <div class="mt-4">
+            <p class="job-title">PBT TT Đảng ủy</p>
+            <p class="job-title">PGĐ TT ĐHQGHN</p>
+          </div>
+          <div class="text-left">
+            <p class="flex items-center my-3">
+              <img src="./assets/image/phone.svg"></img>
+              <a href="" class="ml-3 font-family-light">
+                  (84.4) 3754 7670</a
+              >
+            </p>
+            <p class="flex items-center">
+              <i class="fa-regular fa-envelope text-lg"></i
+              ><a href="" class="ml-3 font-family-light"
+                >nhhai@vnu.edu.vn</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-md-8">
+      <div class="box-shadow-v1 p-10 mb-3">
+        <h4 class="vnu-link-black text-lg font-family-bold font-semibold pb-6">
+          Thông tin chung
+        </h4>
+        <table class="table-scientist">
+          <tbody>
+            <tr>
+              <td
+                class="font-semibold font-family-bold vnu-clor-gray text-base w-30"
+              >
+                Lĩnh vực công tác:
+              </td>
+              <td class="vnu-clor-gray text-base">
+                Hoạt động đào tạo; Tuyển sinh, khảo thí; Đảm bảo chất lượng;
+                Kiểm định; Kế hoạch; Tài chính; Cơ sở vật chất (không bao gồm cơ
+                sở vật chất tại Hoà Lạc); Công tác chính trị, học sinh, sinh
+                viên; và một số nhiệm vụ khác khi được Giám đốc phân công.
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="font-semibold font-family-bold vnu-clor-gray text-base w-30"
+              >
+                Phụ trách các đơn vị:
+              </td>
+              <td class="vnu-clor-gray text-base">
+                Ban Đào tạo; Ban Kế hoạch - Tài chính; Ban Chính trị và Công tác
+                học sinh, sinh viên; Trường Đại học Kinh tế; Trường Đại học Y
+                Dược; Khoa Luật, Trường Quản trị và Kinh doanh; Khoa Các khoa
+                học liên ngành; Ban Quản lý các dự án; Viện Đảm bảo chất lượng
+                giáo dục; Trung tâm Kiểm định chất lượng giáo dục - ĐHQGHN;
+                Trung tâm Khảo thí ĐHQGHN; Trung tâm Hỗ trợ sinh viên; Trung tâm
+                Giáo dục Thể chất và Thể thao; Trung tâm Giáo dục Quốc phòng và
+                An ninh.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <h4 class="vnu-link-black text-lg font-family-bold font-semibold pb-6">
+          Tiểu sử
+        </h4>
+        <table class="table-scientist">
+          <tbody>
+            <tr>
+              <td
+                class="font-semibold font-family-bold vnu-clor-gray text-base w-30"
+              >
+                Sinh năm:
+              </td>
+              <td class="vnu-clor-gray text-base">1973</td>
+            </tr>
+            <tr>
+              <td
+                class="font-semibold font-family-bold vnu-clor-gray text-base w-30"
+              >
+                Quê quán:
+              </td>
+              <td class="vnu-clor-gray text-base">
+                Xã Dạ Trạch, Huyện Khoái Châu, Tỉnh Hưng Yên
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="font-semibold font-family-bold vnu-clor-gray text-base w-30"
+              >
+                Nơi ở hiện nay:
+              </td>
+              <td class="vnu-clor-gray text-base">
+                Khu đô thị Splendora, Xã An Khánh, Huyện Hoài Đức, Thành phố Hà
+                Nội
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="font-semibold font-family-bold vnu-clor-gray text-base w-30"
+              >
+                Ngày vào ĐCSVN:
+              </td>
+              <td class="vnu-clor-gray text-base">29/05/2013</td>
+            </tr>
+            <tr>
+              <td
+                class="font-semibold font-family-bold vnu-clor-gray text-base w-30"
+              >
+                Trình độ học vấn:
+              </td>
+              <td class="vnu-clor-gray text-base">
+                Giáo dục phổ thông 12/12. Học hàm, học vị cao nhất: Tiến sĩ (năm
+                2003) ngành Vật lý; Phó giáo sư (năm 2009)
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="font-semibold font-family-bold vnu-clor-gray text-base w-30"
+              >
+                Lý luận chính trị:
+              </td>
+              <td class="vnu-clor-gray text-base">Cao cấp</td>
+            </tr>
+            <tr>
+              <td
+                class="font-semibold font-family-bold vnu-clor-gray text-base w-30"
+              >
+                Ngoại ngữ:
+              </td>
+              <td class="vnu-clor-gray text-base">Tiếng Anh (Cử nhân)</td>
+            </tr>
+            <tr>
+              <td
+                class="font-semibold font-family-bold vnu-clor-gray text-base w-30"
+              >
+                CT chính đang làm:
+              </td>
+              <td class="vnu-clor-gray text-base">
+                Phụ trách các công tác Tuyển sinh, khảo thí; Công tác học sinh,
+                sinh viên; Đảm bảo chất lượng; Kiểm định; Kế hoạch, tài chính.
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="font-semibold font-family-bold vnu-clor-gray text-base w-30"
+              >
+                Khen thưởng:
+              </td>
+              <td class="vnu-clor-gray text-base">
+                Giải thưởng nhà khoa học trẻ ĐHQGHN (2008); Gương mặt trẻ tiêu
+                biểu cấp ĐHQGHN (2011); Chiến sĩ thi đua cấp đoàn thể trung ương
+                (2011); Chiến sĩ thi đua cấp cơ sở liên tục từ năm học 2011 đến
+                năm 2019; Chiến sĩ thi đua cấp ĐHQGHN năm học 2012, 2013, 2016,
+                2017, 2019; Bằng khen của Giám đốc ĐHQGHN năm 2012, 2013, 2016,
+                2017; Bằng khen của Bộ trưởng Bộ GD&ĐT năm 2015, 2016; Chiến sĩ
+                thi đua cấp Bộ năm 2016; Bằng khen của Thủ tướng Chính phủ năm
+                2018.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <h4 class="vnu-clor-gray text-base text-right pt-4 mb-3">
+          Ban Đào tạo - VNU Media
+        </h4>
+        
+        <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your share button code -->
+<div class="fb-share-button" 
+data-href="https://www.your-domain.com/your-page.html" 
+data-layout="button_count">
+</div>
+
+        <div class="flex items-center mt-3">
+            <img src="./assets/image/folder-open.svg" class="mr-3"></img>
+            <p class="mr-3">Từ khóa</p>
+            <a class="bg-pink text-pink py-2 px-3 rounded-full mr-3"  href="">Nhà khoa học</a>
+            <a class="bg-pink text-pink py-2 px-3 rounded-full" href="">ĐHCQ</a>
+        </div>
+      </div>
+
+      <div class="box-shadow-v1 p-10 mb-3">
+        <h4 class="vnu-link-black text-lg font-family-bold font-semibold pb-6">
+          Nhà khoa học liên quan
+        </h4>
+        <ul class="ml-4">
+          <li>
+            <a class="vnu-clor-gray text-base font-light leading-6 pl-2" href="">
+              PGS.TS Nguyễn Hoàng Hải
+            </a>
+          </li>
+          <li>
+            <a class="vnu-clor-gray text-base font-light leading-6 pl-2" href="">
+              PGS.TS Nguyễn Hiệu
+            </a>
+          </li>
+          <li>
+            <a class="vnu-clor-gray text-base font-light leading-6 pl-2" href="">
+              PGS.TS Bảo Sơn
+            </a>
+          </li>  
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+    <!-- footer -->
+      <div id="footer" class="bg-green text-white mt-4">
+        <div class="">
+          <div class="container  mx-auto">
+            <div class="grid grid-cols-4 pb-2 pt-10 gap-x-4 leading-loose">
+              <div class="col-span-2">
+                <img
+                  class=""
+                  src="./assets/image/logo-vsl-footer.svg"
+                />
+
+                <div>
+                  <p class="font-semibold text-base leading-6 my-2">Bản quyền thuộc về Đại học Quốc gia Hà Nội</p>
+                  <div class="flex justify-start items-center">
+                    <img src="./assets/image/location.svg"></img>
+                    <p class="font-light text-base leading-6 mx-2">
+                      144 Đường Xuân Thủy, quận Cầu Giấy, Hà Nội, Việt Nam
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="font-semibold text-xl line-30 pb-4">Các liên kết khác</div>
+                <p class="font-light text-base leading-6 py-1">
+                  <a
+                    class="hover:text-white"
+                    href=""
+                    >Kênh Hỗ trợ Tiểu học</a
+                  >
+                </p>
+
+                <p class="font-light text-base leading-6 py-1">
+                  <a
+                    class="hover:text-white"
+                    href=""
+                    >Dự án ĐTXD Hòa Lạc</a
+                  >
+                </p>
+
+                <p class="font-light text-base leading-6 py-1">
+                  <a
+                    class="hover:text-white"
+                    href=""
+                    >Bản tin ĐHQGHN</a
+                  >
+                </p>
+
+                <p class="font-light text-base leading-6 py-1">
+                  <a
+                    class="hover:text-white"
+                    href=""
+                    >Tạp chí khoa học</a
+                  >
+                </p>
+
+                <p class="font-light text-base leading-6 py-1">
+                  <a
+                    class="hover:text-white"
+                    href=""
+                    >Đảm bảo chất lượng</a
+                  >
+                </p>
+              </div>
+
+              <div>
+                <div class="font-semibold text-xl line-30 pb-4">Thông tin</div>
+                <p class="font-light text-base leading-6 py-1">
+                  <a class="hover:text-white" href="">Email</a>
+                </p>
+
+                <p class="font-light text-base leading-6 py-1">
+                  <a class="hover:text-white" href="">Liên hệ</a>
+                </p>
+
+                <p class="font-light text-base leading-6 py-1">
+                  <a class="hover:text-white" href="">Sitemap</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="flex justify-between items-center border-t py-3">
+              <div class="flex items-center">
+                <a href=""
+                  ><img
+                    class="pr-4"
+                    src="./assets/image/icon-facebook.svg"
+                /></a>
+
+                <a href="">
+                  <img
+                    class="pr-4"
+                    src="./assets/image/icon-twitter.svg"
+                /></a>
+
+                <a href="">
+                  <img
+                    class="pr-4"
+                    src="./assets/image/icon-linkedin.svg"
+                /></a>
+
+                <a href="">
+                  <img
+                    class="pr-4"
+                    src="./assets/image/icon-youtube.svg"
+                /></a>
+
+                <a href="">
+                  <img
+                    class="pr-4"
+                    src="./assets/image/icon-instagram.svg"
+                /></a>
+              </div>
+
+              <div class="">
+                <span class="pl-4 line-22 text-sm font-semibold">Lượt truy cập</span>
+                <span class="pl-4 line-22 text-sm font-light">Hôm nay:</span>
+                <span class="pl-4 line-22 text-sm font-semibold">500</span>
+                <span class="pl-4 line-22 text-sm font-light">Toàn bộ:</span>
+                <span class="pl-4 line-22 text-sm font-semibold">5.000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

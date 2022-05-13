@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="/assets/css/index.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body id="main">
+    <!-- header -->
+    <div id="header" class="px-0 m-0">
+      <div class="">
+        <div class="bg-green rounded-lg">
+          <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-8 items-center text-white text-base font-light leading-6">
+            <div id="link-header" class="col-md-12">
+              <div class="flex justify-between items-center link-header">
+                <div class="link-1">
+                  <a class="hover-underline" href="">Tài nguyên số</a>
+                </div>
+
+                <div class="link-1">
+                  <a class="hover-underline"href="">Thư viện</a>
+                </div>
+
+                <div class="link-1">
+                  <a class="hover-underline"href="">Văn bản</a>
+                </div>
+
+                <div class="link-1">
+                  <a class="hover-underline"href="">Email</a>
+                </div>
+
+                <div class="link-1">
+                  <a class="hover-underline"href="">Liên hệ</a>
+                </div>
+
+                <div class="sitemap">
+                  <a class="hover-underline"href="">Sitemap</a>
+                </div>
+              </div>
+            </div>
+            
+            <div id="menu-header" class="col-md-12">
+              <div class="flex justify-between items-center menu-header">
+                <div class="icon-search">
+                  <i class="fa fa-search icon"></i>
+                  <input class="input-search" type="text" placeholder="Tìm kiếm" />
+                </div>
+
+                <div class="">
+                  <nav class="navbar navbar-expand-lg">
+                    <div class="collapse navbar-collapse">
+                      <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false" data-toggle="dropdown">Các đơn vị thành viên và trực thuộc VNU</a>
+
+                          <div class="dropdown-menu text-sm font-light line-22">
+                            <a class="dropdown-item" href="">Trường đại học thành viên</a>
+                            <a class="dropdown-item" href="">Trường đại học trực thuộc</a>
+                            <a class="dropdown-item" href="">Viện nghiên cứu</a>
+                            <a class="dropdown-item" href="">Trung tâm Đào tạo & Nghiên cứu</a>
+                            <a class="dropdown-item" href="">Đơn vị phục vụ</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+
+                <div class="england">
+                  <a href=""><img src="./assets/image/england.png" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="logo-vnu" class="container mx-auto flex justify-start items-center my-4">
+          <div class="">
+            <a href=""><img src="./assets/image/logo-vnu.svg" alt="" /></a>
+          </div>
+
+          <div class="">
+            <a href=""><img src="./assets/image/logo-vsl.svg" alt="" /></a>
+          </div>
+        </div>
+
+
+          <nav id="nav-main" class="navbar navbar-expand-lg bd-green px-2 py-0">
+            <div class="container collapse navbar-collapse">
+              <ul class="navbar-nav flex justify-between w-full">
+                <li class="nav-item">
+                  <a class="nav-link active text-base font-light leading-6" href=""
+                    >Trang chủ</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-base font-light leading-6"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                    Hoạt động</a>
+
+                  <div class="dropdown-menu text-sm font-light line-22" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="">
+                      VSL - Talk
+                    </a>
+
+                    <a class="dropdown-item" href="" > VSL - Writing Camp </a>
+                    <a class="dropdown-item" href="" > VSL - Workshop </a>
+                    <a class="dropdown-item" href="" > VSL - Training </a>
+                    <a class="dropdown-item" href="" > Dự án, chương trình khác </a>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-base font-light leading-6" href="" >Tin tức & Sự kiện</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-base font-light leading-6" role="button" data-bs-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Nhà khoa học</a
+                  >
+
+                  <div class="dropdown-menu text-sm font-light line-22" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="" > Nhà Khoa học tiêu biểu </a>
+                    <a class="dropdown-item" href="" > Nhóm nghiên cứu </a>
+                    <a class="dropdown-item" href="" > Tin tức KHCN </a>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-base font-light leading-6" href="" >Liên hệ</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-base font-light leading-6" href="" >Cơ hội hợp tác</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-base font-light leading-6" href="" >Quyên góp, tài trợ, sản phẩm</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-base font-light leading-6" role="button" data-bs-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >VB liên quan</a
+                  >
+
+                  <div class="dropdown-menu dropdown-menu-right text-sm font-light line-22" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="/" > Văn bản Câu lạc bộ </a>
+                    <a class="dropdown-item" href="" > Văn bản ĐHQG </a>
+                    <a class="dropdown-item" href="" > Văn bản Bộ ngành </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+    </div>
+
+    <!-- banner -->
+    <div id="banner" class="">
+      <div class="filtering2">
+        <div class="">
+          <img class="w-full" alt="" src="./assets/image/VNUHoalac2022.jpg" />
+        </div>
+        <div class="">
+          <img class="w-full" alt="" src="./assets/image/Thu vien_www(1).jpg" />
+        </div>
+        <div class="">
+          <img class="w-full" alt="" src="./assets/image/HOLAww.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- link-group -->
+    <div id="group" class="grid grid-cols-2 md:grid-cols-4 gap-x-4 md:gap-x-8 container mx-auto mt-10 px-0">
+      <div class="group-item">
+        <a href=""><img class="rounded-full m-auto" src="./assets/image/fanpage.png" /></a>
+        <p class="font-semibold text-xl line-30 pt-8 size-page">
+          <a href="">FANPAGE</a>
+        </p>
+        <a href=""></a>
+      </div>
+
+      <div class="group-item">
+        <a href=""><img class="rounded-full m-auto" src="./assets/image/facebook.png" /></a>
+        <p class="font-semibold text-xl line-30 pt-8 size-page">
+          <a href="">GROUP FACEBOOK</a>
+        </p>
+        <a href=""></a>
+      </div>
+
+      <div class="group-item">
+        <a href=""><img class="rounded-full m-auto" src="./assets/image/zalo.png" /></a>
+        <p class="font-semibold text-xl line-30 pt-8 size-page">
+          <a href="">ZALO CLUB</a>
+        </p>
+        <a href=""></a>
+      </div>
+
+      <div class="group-item">
+        <a href=""><img class="rounded-full m-auto" src="./assets/image/website.png" /></a>
+        <p class="font-semibold text-xl line-30 pt-8 size-page">
+          <a href="">WEBSITE VNU</a>
+        </p>
+        <a href=""></a>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div id="content" class="container mx-auto py-10 px-0">
+      <div class="flex justify-between items-center pb-6">
+        <div class="flex justify-between items-center">
+            <div class="">
+              <img src="./assets/image/notebook.svg"></img>
+            </div>
+            <a href="" class="text-lg md:text-2xl font-semibold line-30 px-2 md:px-6 title-green">Tin tức & Sự kiện</a>
+        </div>
+
+        <div class="">
+            <a class="text-sm font-light text-green"href="">Xem thêm</a>
+        </div>
+      </div>
+
+      <div id="new-content" class="grid grid-cols-1 md:grid-cols-2 gap-x-8">
+        <div id="content-left" class="bd-green mb-6 md:mb-0">
+          <a href="">
+            <img class="w-full rounded img-left" alt="" src="./assets/image/VNUHoalac2022.jpg"/>
+          </a>
+
+          <div class="text-content mx-3">
+            <h2 class="text-base md:text-lg font-semibold pt-3 md:pt-4">
+              <a class="title-new" href="">
+                Trao Kỷ niệm chương vì sự phát triển của ĐHQGHN cho bà Phó Đại sứ Ireland tại Hà Nội
+              </a>
+            </h2>
+
+            <div class="flex justify-between items-center pt-3 md:pt-4 font-13">
+              <div class="">
+                <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
+              </div>
+
+              <div class="flex">
+                <img src="./assets/image/icon- calendar.svg"></img>
+                <span class="pl-3">12/01/2022</span>
+              </div>
+            </div>
+
+            <div class="pt-3 md:pt-4 font-13">
+              Nhằm ghi nhận những đóng góp quý báu đối với sự phát triển bền vững của ĐHQGHN, cũng như những đóng góp trong việc thúc đẩy hợp tác giữa ĐHQGHN với các đối tác Ireland nói chung và đóng góp cho dự án VIBE nói riêng, ngày 19/01/2022, Phó Giám...
+            </div>
+          </div>
+        </div>
+
+        <div id="content-right">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 mb-6 bd-green">
+            <div>
+              <a href="">
+                <img class="rounded img-right" alt="" src="./assets/image/VNUHoalac2022.jpg"/>
+              </a>
+            </div>
+
+            <div class="text-r mr-3">
+              <h3 class="text-base font-semibold pt-4">
+                <a class="title-new" href="">
+                Bắt đầu kỳ thi Tuyển sinh năm học 2022 - 2023
+                </a>
+              </h3>
+
+              <div class="flex justify-between items-center pt-3 md:pt-4 font-13 new-calendar">
+                <div class="">
+                  <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
+                </div>
+
+                <div class="flex m-calendar">
+                  <img src="./assets/image/icon- calendar.svg"></img>
+                  <span class="pl-3">12/01/2022</span>
+                </div>
+              </div>
+
+              <div class="pt-3 md:pt-4 font-13">
+                Đúng 6h30 sáng nay, 10/6/2021, các thí sinh của đợt 1(mã đợt thi: 211 - ) ...
+              </div>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 mb-6 bd-green">
+            <div>
+              <a href="">
+                <img class="rounded img-right" alt="" src="./assets/image/VNUHoalac2022.jpg"/>
+              </a>
+            </div>
+
+            <div class="text-r mr-3">
+              <h3 class="text-base font-semibold pt-4">
+                <a class="title-new" href="">
+                Dạy học, thực hành STEM+ đơn giản tại trường và tại nhà cấp Tiểu...
+                </a>
+              </h3>
+
+              <div class="flex justify-between items-center pt-3 md:pt-4 font-13 new-calendar">
+                <div class="">
+                  <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
+                </div>
+
+                <div class="flex m-calendar">
+                  <img src="./assets/image/icon- calendar.svg"></img>
+                  <span class="pl-3">12/01/2022</span>
+                </div>
+              </div>
+
+              <div class="pt-3 md:pt-4 font-13">
+                [Livestream tư vấn số 4 Giáo dục Tiểu học] Dạy học, thực hành STEM+ đơn ...
+              </div>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 bd-green">
+            <div>
+              <a href="">
+                <img class="rounded img-right" alt="" src="./assets/image/VNUHoalac2022.jpg"/>
+              </a>
+            </div>
+
+            <div class="text-r mr-3">
+              <h3 class="text-base font-semibold pt-4">
+                <a class="title-new" href="">
+                ĐHQGHN thành lập Ban Chỉ đạo đẩy mạnh tiến độ thực hiện công...
+                </a>
+              </h3>
+
+              <div class="flex justify-between items-center pt-3 md:pt-4 font-13 new-calendar">
+                <div class="">
+                  <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
+                </div>
+
+                <div class="flex m-calendar">
+                  <img src="./assets/image/icon- calendar.svg"></img>
+                  <span class="pl-3">12/01/2022</span>
+                </div>
+              </div>
+
+              <div class="pt-3 md:pt-4 font-13">
+                Ngày 4/10/2021, ĐHQGHN đã thành lập Ban Chỉ đạo đẩy mạnh tiến độ t...
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- notification -->
+    <div id="notification" class="container mx-auto pr-14 pl-14 pb-4 pt-14 rounded-lg bg-red">
+      <div class="flex justify-between items-center">
+        <div class="flex justify-start items-center">
+          <div class="rounded-full text-2xl bg-white vnu-bell view-more">
+            <img src="./assets/image/bell.svg"></img>
+          </div>
+          <a href="" class="text-lg md:text-2xl font-semibold pl-4">Thông báo</a>
+        </div>
+        <div class="">
+          <a class="text-sm font-light" href="">Xem thêm</a>
+        </div>
+      </div>
+
+      <div class="flex justify-between items-center pl-10 pr-10 bg-white my-4 py-3 rounded-md p-notification">
+        <ul>
+          <li>
+            <div class="flex justify-between items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="text-sm md:text-base font-light leading-6 pl-3" href="">
+                Một số văn bản mới của Thủ tướng Chính phủ, Bộ Giáo dục và Đào tạo, Bộ Nội vụ
+              </a>
+              <img class="pl-10 img-notification-news" src="./assets/image/news.svg"></img>
+            </div>
+          </li>
+        </ul>
+        <a href=""class="text-sm font-light line-22 view-more">
+          Xem chi tiết <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="flex justify-between items-center pl-10 pr-10 bg-white my-4 py-3 rounded-md p-notification">
+        <ul>
+          <li>
+            <div class="flex justify-start items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="text-sm md:text-base font-light leading-6 pl-3" href="">
+                Công tác nhân sự tháng 1/2022
+              </a>
+            </div>
+          </li>
+        </ul>
+        <a href="" class="text-sm font-light line-22 view-more">
+          Xem chi tiết <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="flex justify-between items-center pl-10 pr-10 bg-white my-4 py-3 rounded-md p-notification">
+        <ul>
+          <li>
+            <div class="flex justify-start items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="text-sm md:text-base font-light leading-6 pl-3" href="" >
+                VNU – IFI: Tuyển sinh Khóa 3 -Chương trình Thạc sĩ thông tin và truyền thông, Chuyên ngành truyền thông số và xuất bản (INFOCOM) 2022-2023
+              </a>
+            </div>
+          </li>
+        </ul>
+        <a href=""class="text-sm font-light line-22 view-more">
+          Xem chi tiết <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="flex justify-between items-center pl-10 pr-10 bg-white my-4 py-3 rounded-md p-notification">
+        <ul>
+          <li>
+            <div class="flex justify-start items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="text-sm md:text-base font-light leading-6 pl-3" href="">
+                Thông báo tài trợ kinh phí cho các hoạt động khoa học – công nghệ năm 2022 của Trung tâm Hỗ trợ nghiên cứu châu Á
+              </a>
+            </div>
+          </li>
+        </ul>
+        <a href="" class="text-sm font-light line-22 view-more">
+          Xem chi tiết <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- media -->
+    <div id="media" class="container mx-auto py-8 px-0">
+      <div class="flex justify-between items-center pb-6 p-media px-0">
+        <div class="flex justify-start items-center">
+          <div class="">
+            <img src="./assets/image/image.svg"></img>
+          </div>
+          <a href="" class="text-lg md:text-2xl font-semibold line-30 px-6 title-green">Thư viện ảnh & Medida</a>
+        </div>
+        <div class="">
+            <a class="text-sm font-light text-green" href="">Xem thêm</a>
+        </div>
+      </div>
+
+      <div id="media-slide" class="flex filtering1">
+        <div class="">
+          <img src="./assets/image/VNUHoalac2022.jpg" />
+        </div>
+        <div class="">
+          <img src="./assets/image/Thu vien_www(1).jpg" />
+        </div>
+        <div class="">
+          <img src="./assets/image/VNUHoalac2022.jpg" />
+        </div>
+        <div class="">
+          <img src="./assets/image/Thu vien_www(1).jpg" />
+        </div>
+
+        <div class="">
+          <img src="./assets/image/VNUHoalac2022.jpg" />
+        </div>
+        <div class="">
+          <img src="./assets/image/Thu vien_www(1).jpg" />
+        </div>
+        <div class="">
+          <img src="./assets/image/VNUHoalac2022.jpg" />
+        </div>
+        <div class="">
+          <img src="./assets/image/Thu vien_www(1).jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+      <div id="footer" class="bg-green text-white mt-4">
+        <div class="">
+          <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 pb-2 pt-10 gap-x-4 leading-loose">
+              <div class="">
+                <div class="img-footer-vsl">
+                  <img src="./assets/image/logo-vsl-footer.svg" />
+                </div>
+
+                <div>
+                  <p class="font-semibold text-base leading-6 my-2">Bản quyền thuộc về Đại học Quốc gia Hà Nội</p>
+                  <div class="flex justify-start items-center">
+                    <img src="./assets/image/location.svg"></img>
+                    <p class="font-light text-base leading-6 mx-2">
+                      144 Đường Xuân Thủy, quận Cầu Giấy, Hà Nội, Việt Nam
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4">
+              <div class="mt-link">
+                <div class="font-semibold text-xl line-30 pb-4">Các liên kết khác</div>
+                <p class="font-light text-base leading-6 py-1">
+                  <a
+                    class="hover:text-white"
+                    href=""
+                    >Kênh Hỗ trợ Tiểu học</a
+                  >
+                </p>
+
+                <p class="font-light text-base leading-6 py-1">
+                  <a
+                    class="hover:text-white"
+                    href=""
+                    >Dự án ĐTXD Hòa Lạc</a
+                  >
+                </p>
+
+                <p class="font-light text-base leading-6 py-1">
+                  <a
+                    class="hover:text-white"
+                    href=""
+                    >Bản tin ĐHQGHN</a
+                  >
+                </p>
+
+                <p class="font-light text-base leading-6 py-1">
+                  <a
+                    class="hover:text-white"
+                    href=""
+                    >Tạp chí khoa học</a
+                  >
+                </p>
+
+                <p class="font-light text-base leading-6 py-1">
+                  <a
+                    class="hover:text-white"
+                    href=""
+                    >Đảm bảo chất lượng</a
+                  >
+                </p>
+              </div>
+
+              <div class="mt-link">
+                <div class="font-semibold text-xl line-30 pb-4">Thông tin</div>
+                <p class="font-light text-base leading-6 py-1">
+                  <a class="hover:text-white" href="">Email</a>
+                </p>
+
+                <p class="font-light text-base leading-6 py-1">
+                  <a class="hover:text-white" href="">Liên hệ</a>
+                </p>
+
+                <p class="font-light text-base leading-6 py-1">
+                  <a class="hover:text-white" href="">Sitemap</a>
+                </p>
+              </div>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 border-t py-3">
+              <div class="flex justify-start items-center">
+                <a href=""
+                  ><img
+                    class="pr-4"
+                    src="./assets/image/icon-facebook.svg"
+                /></a>
+
+                <a href="">
+                  <img
+                    class="pr-4"
+                    src="./assets/image/icon-twitter.svg"
+                /></a>
+
+                <a href="">
+                  <img
+                    class="pr-4"
+                    src="./assets/image/icon-linkedin.svg"
+                /></a>
+
+                <a href="">
+                  <img
+                    class="pr-4"
+                    src="./assets/image/icon-youtube.svg"
+                /></a>
+
+                <a href="">
+                  <img
+                    class="pr-4"
+                    src="./assets/image/icon-instagram.svg"
+                /></a>
+              </div>
+
+              <div class="flex items-center md:justify-end mt-access">
+                <span class="md:pl-4 line-22 text-sm font-semibold">Lượt truy cập</span>
+                <span class="md:pl-4 line-22 text-sm font-light pl-access">Hôm nay:</span>
+                <span class="md:pl-4 line-22 text-sm font-semibold pl-access">500</span>
+                <span class="md:pl-4 line-22 text-sm font-light pl-access">Toàn bộ:</span>
+                <span class="md:pl-4 line-22 text-sm font-semibold pl-access">5.000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+      $('.filtering1').slick({
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        autoplay: true,
+        prevArrow:
+          "<button type='button' class='slick-prev'><i class='fa-solid fa-arrow-left' aria-hidden='true'></i></button>",
+        nextArrow:
+          "<button type='button' class='slick-next'><i class='fa-solid fa-arrow-right' aria-hidden='true'></i></button>", 
+        responsive: [
+          {
+            breakpoint: 493,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 769,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 1280,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 1368,
+            settings: {
+              arrows: false
+            }
+          }
+        ]   
+      });
+    </script>
+
+    <script type="text/javascript">
+      $('.filtering2').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        dots: true,
+        prevArrow:
+          "<button type='button' class='slick-prev'><i class='fa-solid fa-arrow-left' aria-hidden='true'></i></button>",
+        nextArrow:
+          "<button type='button' class='slick-next'><i class='fa-solid fa-arrow-right' aria-hidden='true'></i></button>",
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false
+            }
+          }
+        ]   
+      });
+    </script>
+  </body>
+</html>
