@@ -1,68 +1,66 @@
-<!-- https://www.figma.com/file/Ba2avjHpSUZJdETBsDCpco/VSL?node-id=0%3A1 -->
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Tin tức & Sự kiện - Đại học quốc gia Hà Nội</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://unpkg.com/tailwindcss@2.0.1/dist/tailwind.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="/assets/css/chitietthongbao.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-    <link rel="stylesheet" href="/assets/css/chitietthongbao.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   </head>
   <body id="main">
     <!-- header -->
-    <div id="header" class="px-0">
+    <div id="header" class="px-0 m-0">
       <div class="">
         <div class="bg-green rounded-lg">
-          <div class="container mx-auto flex justify-between items-center text-white text-base font-light leading-6">
-            <div id="link-header" class="col-md-6">
-              <div class="flex justify-between items-center">
-                <div class="">
+          <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-8 items-center text-white text-base font-light leading-6">
+            <div id="link-header" class="col-md-12">
+              <div class="flex justify-between items-center link-header">
+                <div class="link-1">
                   <a class="hover-underline" href="">Tài nguyên số</a>
                 </div>
 
-                <div class="">
+                <div class="link-1">
                   <a class="hover-underline"href="">Thư viện</a>
                 </div>
 
-                <div class="">
+                <div class="link-1">
                   <a class="hover-underline"href="">Văn bản</a>
                 </div>
 
-                <div class="">
+                <div class="link-1">
                   <a class="hover-underline"href="">Email</a>
                 </div>
 
-                <div class="">
+                <div class="link-1">
                   <a class="hover-underline"href="">Liên hệ</a>
                 </div>
 
-                <div class="">
+                <div class="sitemap">
                   <a class="hover-underline"href="">Sitemap</a>
                 </div>
               </div>
             </div>
             
-            <div id="menu-header" class="col-md-6">
-              <div class="flex justify-between items-center">
+            <div id="menu-header" class="col-md-12">
+              <div class="flex justify-between items-center menu-header">
                 <div class="icon-search">
                   <i class="fa fa-search icon"></i>
                   <input class="input-search" type="text" placeholder="Tìm kiếm" />
                 </div>
 
-                <div>
+                <div class="">
                   <nav class="navbar navbar-expand-lg">
                     <div class="collapse navbar-collapse">
                       <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle hover:text-white" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                          <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false" data-toggle="dropdown">Các đơn vị thành viên và trực thuộc VNU</a>
 
                           <div class="dropdown-menu text-sm font-light line-22">
@@ -78,7 +76,7 @@
                   </nav>
                 </div>
 
-                <div>
+                <div class="england">
                   <a href=""><img src="./assets/image/england.png" /></a>
                 </div>
               </div>
@@ -86,7 +84,7 @@
           </div>
         </div>
 
-        <div class="container mx-auto flex justify-start items-center my-4">
+        <div id="logo-vnu" class="container mx-auto flex justify-start items-center my-4">
           <div class="">
             <a href=""><img src="./assets/image/logo-vnu.svg" alt="" /></a>
           </div>
@@ -116,14 +114,14 @@
                     Hoạt động</a>
 
                   <div class="dropdown-menu text-sm font-light line-22" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="">
+                    <a class="dropdown-item" href="https://www.google.com/">
                       VSL - Talk
                     </a>
 
-                    <a class="dropdown-item" href="" > VSL - Writing Camp </a>
-                    <a class="dropdown-item" href="" > VSL - Workshop </a>
-                    <a class="dropdown-item" href="" > VSL - Training </a>
-                    <a class="dropdown-item" href="" > Dự án, chương trình khác </a>
+                    <a class="dropdown-item" href="https://www.google.com/" > VSL - Writing Camp </a>
+                    <a class="dropdown-item" href="https://www.google.com/" > VSL - Workshop </a>
+                    <a class="dropdown-item" href="https://www.google.com/" > VSL - Training </a>
+                    <a class="dropdown-item" href="https://www.google.com/" > Dự án, chương trình khác </a>
                   </div>
                 </li>
 
@@ -175,29 +173,30 @@
     
     <!--Content-->
 <div id="main-content">
-  <div id="title-link" class="container mx-auto">
-    <h2 class="text-3xl uppercase font-semibold vnu-clor-green-v2 title-page">
-      <a href="">Thông báo</a>
-    </h2>
-  </div>
-    <div id="breadcrumb-link" class="container mx-auto">
-      <nav aria-label="breadcrumb" class="py-3">
-        <ol class="breadcrumb mb-0 p-0">
-          <li class="breadcrumb-item vnu-clor-gray text-sm font-normal">
-            <a href="">Trang chủ</a>
-          </li>
-          <li class="breadcrumb-item vnu-clor-gray text-sm font-bold">
-            <a href="">Thông báo</a>
-          </li>
-        </ol>
-      </nav>
+  <div id="order-url">
+    <div id="title-link" class="container mx-auto">
+      <h2 class="text-3xl uppercase font-semibold vnu-clor-green-v2 title-page">
+        <a href="">Thông báo</a>
+      </h2>
+    </div>
+      <div id="breadcrumb-link" class="container mx-auto">
+        <nav aria-label="breadcrumb" class="py-3">
+          <ol class="breadcrumb mb-0 p-0">
+            <li class="breadcrumb-item vnu-clor-gray text-sm font-normal">
+              <a href="">Trang chủ</a>
+            </li>
+            <li class="breadcrumb-item vnu-clor-gray text-sm font-bold">
+              <a href="">Thông báo</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
     </div>
 
-      <div class="container mx-auto">
+  <div class="container mx-auto">
   <div class="row" id="new-12">
-    <div class="col col-md-9">
-        <div class="box-shadow-v1">
-      <div class=" p-10">
+    <div class="col col-12 col-md-9">
+      <div id="main-ct" class="box-shadow-v1 p-10">
         <div class="flex justify-between items-center bg-white rounded-md">
         <ul>
           <li>
@@ -215,327 +214,7 @@
         </div>
         <p class="text-base mt-3 vnu-clor-gray">Ngày 09/3/2022, Giám đốc ĐHQGHN ký Quyết định số 562/QĐ-ĐHQGHN về việc thành lập Ban chỉ đạo tuyển sinh năm 2022 gồm 21 thành viên.</p>
         <p class="text-base mt-3 vnu-clor-gray">Ban chỉ đạo tuyển sinh có nhiệm vụ chỉ đạo, giám sát, kiểm tra công tác tuyển sinh được tổ chức thực hiện tại các đơn vị đào tạo theo các quy định hiện hành của Bộ Giáo dục và Đào tạo, ĐHQGHN và tự giải thể sau khi hoàn thành nhiệm vụ.</p>
-      
-
-        <table class="table-scientist vnu-clor-gray mt-4 text-center">
-          <tbody>
-            <tr class="">
-              <td class="font-semibold font-family-bold text-sm cot-1">
-                STT
-              </td>
-              <td class="font-semibold font-family-bold text-sm cot-2">
-                Họ và tên
-              </td>
-              <td class="font-semibold font-family-bold text-sm cot-3">
-                Chức vụ, đơn vị công tác
-              </td>
-              <td class="font-semibold font-family-bold text-sm cot-4">
-                Trách nhiệm trong Ban chỉ đạo
-              </td>
-            </tr>
-            <tr>
-                <td>
-                    1
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Phó Giám đốc ĐHQGHN
-                </td>
-                <td>
-                    Trưởng ban
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    2
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Phó trưởng ban thường trực BCĐ
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    3
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Phó trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    4
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Giám đốc TT Khảo thí ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    5
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Thanh tra và Pháp chế ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    6
-                </td>
-               <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    7
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    8
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    9
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    10
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    11
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    12
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    13
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    14
-                </td>
-               <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    15
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    16
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    17
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    18
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    19
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Trưởng ban Đào tạo ĐHQGHN
-                </td>
-                <td>
-                    Ủy viên
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    20
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Chuyên viên Ban Đào tạo, ĐHQGHN
-                </td>
-                <td>
-                    Thư ký (tuyển sinh sau đại học, THPT, THCS)
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    21
-                </td>
-                <td>
-                    PGS.TS Nguyễn Hoàng Hải
-                </td>
-                <td>
-                    Chuyên viên Ban Đào tạo, ĐHQGHN
-                </td>
-                <td>
-                    Thư ký (tuyển sinh đại học)
-                </td>
-            </tr>
-          </tbody>
-        </table>
-
-
-
-
-
-
-
+        <img src="./assets/image/danhsach2.png" class=""></img>
         <h4 class="text-base text-right pt-4 mb-3">
           Ban Đào tạo - VNU Media
         </h4>
@@ -556,87 +235,114 @@ data-href="https://www.your-domain.com/your-page.html"
 data-layout="button_count">
 </div>
 
-        <div class="flex items-center mt-3">
+        <div id="p-other-links" class="flex items-center mt-3">
             <img src="./assets/image/folder-open.svg" class="mr-3"></img>
             <p class="mr-3">Từ khóa</p>
             <a class="bg-pink text-pink py-2 px-3 rounded-full mr-3"  href="">Học bổng</a>
             <a class="bg-pink text-pink py-2 px-3 rounded-full" href="">ĐHCQ</a>
         </div>
-
-
-        </div>
-      </div>
+    </div>
 
       <div class="mt-4" id="new-other">
       <div class="box-shadow-v1 p-10 mb-3">
         <h4 class="vnu-link-black text-lg font-family-bold font-semibold pb-4">
           Các thông báo khác
         </h4>
-        <ul class="ml-4">
+<ul class="ml-3">
           <li class="mb-2">
-            <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-2 pb-6" href="">
-              Mẫu văn bằng của ĐHQGHN (17/09/2021)
-            </a>
+            <div class="flex justify-start items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-3" href="">
+                Mẫu văn bằng của ĐHQGHN (17/09/2021)
+              </a>
+            </div>
           </li>
           <li class="mb-2">
-            <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-2" href="">
-              Các công  việc chính về đào tạo và thời gian thực hiện năm học 2020 - 2021 (20/08/2020)
-            </a>
+            <div class="flex justify-start items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-3" href="">
+                Các công  việc chính về đào tạo và thời gian thực hiện năm học 2020 - 2021 (20/08/2020)
+              </a>
+            </div>
           </li>
           <li class="mb-2">
-            <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-2" href="">
-              Các chương trình liên kết đào tạo quốc tế của ĐHQGHN (20/08/2020)
-            </a>
+            <div class="flex justify-start items-center">  
+              <i class="fa-solid fa-circle"></i>
+              <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-3" href="">
+                Các chương trình liên kết đào tạo quốc tế của ĐHQGHN (20/08/2020)
+              </a>
+            </div>
           </li>
           <li class="mb-2">
-            <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-2" href="">
-              Danh mục các chương trình đào tạo tiến sĩ tại ĐHQGHN (20/08/2020)
-            </a>
+            <div class="flex justify-start items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-3" href="">
+                Danh mục các chương trình đào tạo tiến sĩ tại ĐHQGHN (20/08/2020)
+              </a>
+            </div>
           </li>
           <li class="mb-2">
-            <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-2" href="">
-              Danh mục các chương trình đào tạo thạc sĩ tại ĐHQGHN (20/08/2020)
-            </a>
+            <div class="flex justify-start items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-3" href="">
+                Danh mục các chương trình đào tạo thạc sĩ tại ĐHQGHN (20/08/2020)
+              </a>
+            </div>
           </li>
           <li class="mb-2">
-            <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-2" href="">
-              Danh mục các chương trình đào tạo đại học tại ĐHQGHN (20/08/2020)
-            </a>
+            <div class="flex justify-start items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-3" href="">
+                Danh mục các chương trình đào tạo đại học tại ĐHQGHN (20/08/2020)
+              </a>
+            </div>
           </li>
           <li class="mb-2">
-            <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-2" href="">
-              Đào tại hệ THPT Chuyên (27/02/2020)
-            </a>
+            <div class="flex justify-start items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-3" href="">
+                Đào tại hệ THPT Chuyên (27/02/2020)
+              </a>
+            </div>
           </li>
           <li class="mb-2">
-            <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-2" href="">
-              Các công việc chính về Đào tạo và thời gian thực hiện năm học 2019 - 2020 (19/07/2019)
-            </a>
+            <div class="flex justify-start items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-3" href="">
+                Các công việc chính về Đào tạo và thời gian thực hiện năm học 2019 - 2020 (19/07/2019)
+              </a>
+            </div>
           </li>
           <li class="mb-2">
-            <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-2" href="">
-              Các công việc chính về Đào tạo và thời gian thực hiện năm học 2018 - 2018 (01/03/2019)
-            </a>
+            <div class="flex justify-start items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-3" href="">
+                Các công việc chính về Đào tạo và thời gian thực hiện năm học 2018 - 2018 (01/03/2019)
+              </a>
+            </div>
           </li>
           <li class="mb-2">
-            <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-2" href="">
-              Các chương trình liên kết đào tạo quốc tế của ĐHQGHN (Tính đến tháng 12/2018) (06/12/2018)
-            </a>
+            <div class="flex justify-start items-center">
+              <i class="fa-solid fa-circle"></i>
+              <a class="vnu-clor-green-v2 vnu-clor-gray text-base font-light leading-6 pl-3" href="">
+                Các chương trình liên kết đào tạo quốc tế của ĐHQGHN (Tính đến tháng 12/2018) (06/12/2018)
+              </a>
+            </div>
           </li>  
         </ul>
       </div>
       </div>
 
-          <div id="news-home" class="container mx-auto">
-      <div id="page" class="flex justify-between items-center mt-8 mb-20">
-        <div class="flex">
-          <p class="mr-3">Tổng 400</p>
-          <select class="form-select" aria-label="Default select example">
-            <option value="1">20/trang</option>
-            <option value="2">50/trang</option>
-            <option value="3">100/trang</option>
-          </select>
-        </div>
+      <div id="news-home" class="container mx-auto">
+        <div id="page" class="flex justify-between items-center mt-8 mb-20">
+          <div class="flex items-center page-number">
+            <p class="mr-3">Tổng 400</p>
+            <select class="form-select" aria-label="Default select example">
+              <option value="1">20/trang</option>
+              <option value="2">50/trang</option>
+              <option value="3">100/trang</option>
+            </select>
+          </div>
 
         <div class="flex">
           <div class="flex paging">
@@ -657,7 +363,7 @@ data-layout="button_count">
     </div>
     </div>
 
-    <div class="col col-md-3">
+    <div class="col col-12 col-md-3">
         <h4 class="vnu-link-black text-lg font-family-bold font-semibold pb-6">
           Thư viện Ảnh & Media
         </h4>
@@ -706,13 +412,12 @@ data-layout="button_count">
     <!-- footer -->
       <div id="footer" class="bg-green text-white mt-4">
         <div class="">
-          <div class="container  mx-auto">
-            <div class="grid grid-cols-4 pb-2 pt-10 gap-x-4 leading-loose">
-              <div class="col-span-2">
-                <img
-                  class=""
-                  src="./assets/image/logo-vsl-footer.svg"
-                />
+          <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 pb-2 pt-10 gap-x-4 leading-loose">
+              <div class="">
+                <div class="img-footer-vsl">
+                  <img src="./assets/image/logo-vsl-footer.svg" />
+                </div>
 
                 <div>
                   <p class="font-semibold text-base leading-6 my-2">Bản quyền thuộc về Đại học Quốc gia Hà Nội</p>
@@ -725,7 +430,8 @@ data-layout="button_count">
                 </div>
               </div>
 
-              <div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4">
+              <div class="mt-link">
                 <div class="font-semibold text-xl line-30 pb-4">Các liên kết khác</div>
                 <p class="font-light text-base leading-6 py-1">
                   <a
@@ -768,7 +474,7 @@ data-layout="button_count">
                 </p>
               </div>
 
-              <div>
+              <div class="mt-link">
                 <div class="font-semibold text-xl line-30 pb-4">Thông tin</div>
                 <p class="font-light text-base leading-6 py-1">
                   <a class="hover:text-white" href="">Email</a>
@@ -782,10 +488,11 @@ data-layout="button_count">
                   <a class="hover:text-white" href="">Sitemap</a>
                 </p>
               </div>
+              </div>
             </div>
 
-            <div class="flex justify-between items-center border-t py-3">
-              <div class="flex items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 border-t py-3">
+              <div class="flex justify-start items-center">
                 <a href=""
                   ><img
                     class="pr-4"
@@ -817,12 +524,12 @@ data-layout="button_count">
                 /></a>
               </div>
 
-              <div class="">
-                <span class="pl-4 line-22 text-sm font-semibold">Lượt truy cập</span>
-                <span class="pl-4 line-22 text-sm font-light">Hôm nay:</span>
-                <span class="pl-4 line-22 text-sm font-semibold">500</span>
-                <span class="pl-4 line-22 text-sm font-light">Toàn bộ:</span>
-                <span class="pl-4 line-22 text-sm font-semibold">5.000</span>
+              <div class="flex items-center md:justify-end mt-access">
+                <span class="md:pl-4 line-22 text-sm font-semibold">Lượt truy cập</span>
+                <span class="md:pl-4 line-22 text-sm font-light pl-access">Hôm nay:</span>
+                <span class="md:pl-4 line-22 text-sm font-semibold pl-access">500</span>
+                <span class="md:pl-4 line-22 text-sm font-light pl-access">Toàn bộ:</span>
+                <span class="md:pl-4 line-22 text-sm font-semibold pl-access">5.000</span>
               </div>
             </div>
           </div>
