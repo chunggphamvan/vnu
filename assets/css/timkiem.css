@@ -193,3 +193,137 @@
 #content .title-page {
   position: relative;
 }
+
+@media screen and (max-width: 768px) {
+  /* footer */
+  .mt-access {
+    margin-top: 8px;
+  }
+  .pl-access {
+    padding-left: 8px;
+  }
+  .mt-link {
+    margin-top: 16px;
+  }
+  .img-footer-vsl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* header */
+  #logo-vnu img {
+    height: 56px;
+  }
+  #link-header {
+    font-size: 12px;
+    padding: 0;
+    margin-top: 8px;
+  }
+  #link-header .sitemap {
+    display: none;
+  }
+  #menu-header {
+    font-size: 12px;
+    padding: 0;
+  }
+  #menu-header input,
+  i {
+    font-size: 14px;
+  }
+  #nav-main a.nav-link {
+    font-size: 12px;
+  }
+  #nav-main .dropdown-menu .dropdown-item {
+    font-size: 12px;
+  }
+  #menu-header .collapse:not(.show) {
+    display: inherit;
+  }
+  #menu-header .dropdown-menu .dropdown-item {
+    font-size: 12px;
+  }
+  #menu-header .dropdown-menu {
+    min-width: auto;
+    position: absolute;
+    top: 80%;
+  }
+  #menu-header .dropdown-toggle {
+    white-space: inherit !important;
+  }
+  #menu-header .dropdown-item {
+    white-space: inherit !important;
+  }
+  #menu-header .navbar {
+    padding: 0rem 1rem;
+  }
+  /* content */
+  #content .pl-mb {
+    padding-left: 16px !important;
+  }
+}
+
+@media screen and (min-width: 492px) and (max-width: 1023px) {
+  #menu-header {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  #menu-header .collapse:not(.show) {
+    display: inherit;
+  }
+  .link-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .menu-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .link-1 {
+    padding-right: 16px;
+  }
+  #link-header {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  #link-header {
+    margin-top: 8px;
+  }
+  #menu-header {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1280px) {
+  .link-1 {
+    padding-right: 16px;
+  }
+  #link-header {
+    font-size: 14px;
+  }
+  #menu-header {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1160px) {
+  .england {
+    display: none;
+  }
+}
+@media screen and (min-width: 555px) and (max-width: 1092px) {
+  #content .title-page:before {
+    height: 80px;
+    top: 130%;
+  }
+}
+@media screen and (min-width: 389px) and (max-width: 555px) {
+  #content .title-page:before {
+    height: 110px;
+    top: 160%;
+  }
+}

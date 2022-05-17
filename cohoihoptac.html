@@ -1,68 +1,66 @@
-<!-- https://www.figma.com/file/Ba2avjHpSUZJdETBsDCpco/VSL?node-id=0%3A1 -->
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Tin tức & Sự kiện - Đại học quốc gia Hà Nội</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://unpkg.com/tailwindcss@2.0.1/dist/tailwind.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="/assets/css/cohoihoptac.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-    <link rel="stylesheet" href="/assets/css/cohoihoptac.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   </head>
   <body id="main">
     <!-- header -->
-    <div id="header" class="px-0">
+    <div id="header" class="px-0 m-0">
       <div class="">
         <div class="bg-green rounded-lg">
-          <div class="container mx-auto flex justify-between items-center text-white text-base font-light leading-6">
-            <div id="link-header" class="col-md-6">
-              <div class="flex justify-between items-center">
-                <div class="">
+          <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-8 items-center text-white text-base font-light leading-6">
+            <div id="link-header" class="col-md-12">
+              <div class="flex justify-between items-center link-header">
+                <div class="link-1">
                   <a class="hover-underline" href="">Tài nguyên số</a>
                 </div>
 
-                <div class="">
+                <div class="link-1">
                   <a class="hover-underline"href="">Thư viện</a>
                 </div>
 
-                <div class="">
+                <div class="link-1">
                   <a class="hover-underline"href="">Văn bản</a>
                 </div>
 
-                <div class="">
+                <div class="link-1">
                   <a class="hover-underline"href="">Email</a>
                 </div>
 
-                <div class="">
+                <div class="link-1">
                   <a class="hover-underline"href="">Liên hệ</a>
                 </div>
 
-                <div class="">
+                <div class="sitemap">
                   <a class="hover-underline"href="">Sitemap</a>
                 </div>
               </div>
             </div>
             
-            <div id="menu-header" class="col-md-6">
-              <div class="flex justify-between items-center">
+            <div id="menu-header" class="col-md-12">
+              <div class="flex justify-between items-center menu-header">
                 <div class="icon-search">
                   <i class="fa fa-search icon"></i>
                   <input class="input-search" type="text" placeholder="Tìm kiếm" />
                 </div>
 
-                <div>
+                <div class="">
                   <nav class="navbar navbar-expand-lg">
                     <div class="collapse navbar-collapse">
                       <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle hover:text-white" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                          <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false" data-toggle="dropdown">Các đơn vị thành viên và trực thuộc VNU</a>
 
                           <div class="dropdown-menu text-sm font-light line-22">
@@ -78,7 +76,7 @@
                   </nav>
                 </div>
 
-                <div>
+                <div class="england">
                   <a href=""><img src="./assets/image/england.png" /></a>
                 </div>
               </div>
@@ -86,7 +84,7 @@
           </div>
         </div>
 
-        <div class="container mx-auto flex justify-start items-center my-4">
+        <div id="logo-vnu" class="container mx-auto flex justify-start items-center my-4">
           <div class="">
             <a href=""><img src="./assets/image/logo-vnu.svg" alt="" /></a>
           </div>
@@ -116,14 +114,14 @@
                     Hoạt động</a>
 
                   <div class="dropdown-menu text-sm font-light line-22" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="">
+                    <a class="dropdown-item" href="https://www.google.com/">
                       VSL - Talk
                     </a>
 
-                    <a class="dropdown-item" href="" > VSL - Writing Camp </a>
-                    <a class="dropdown-item" href="" > VSL - Workshop </a>
-                    <a class="dropdown-item" href="" > VSL - Training </a>
-                    <a class="dropdown-item" href="" > Dự án, chương trình khác </a>
+                    <a class="dropdown-item" href="https://www.google.com/" > VSL - Writing Camp </a>
+                    <a class="dropdown-item" href="https://www.google.com/" > VSL - Workshop </a>
+                    <a class="dropdown-item" href="https://www.google.com/" > VSL - Training </a>
+                    <a class="dropdown-item" href="https://www.google.com/" > Dự án, chương trình khác </a>
                   </div>
                 </li>
 
@@ -172,7 +170,7 @@
           </nav>
       </div>
     </div>
-    
+
     <!--Content-->
 <div id="main-content">
   <div id="title-link" class="container mx-auto">
@@ -194,9 +192,9 @@
       </nav>
     </div>
 
-    <div id="news-home" class="container mx-auto pt-10">
+    <div id="news-home" class="container mx-auto">
       <div id="new-1" class="row pb-8">
-        <div class="col col-md-7">
+        <div class="col col-12 col-md-7">
           <a
             href=""
           >
@@ -206,7 +204,7 @@
             />
           </a>
         </div>
-        <div class="col col-md-5">
+        <div class="col col-12 col-md-5 text-main-content">
           <h2 class="text-2xl font-bold leading-9 leading-loose text-justify">
             <a
               href=""
@@ -225,7 +223,7 @@
                   <span class="pl-3">12/01/2022</span>
                 </div>
               </div>
-          <div class="w-100 pt-3 pb-4 text-base leading-6 text-justify">
+          <div class="w-100 pt-3 pb-4 text-base leading-6 text-justify p-content">
             <p>
               Nhằm ghi nhận những đóng góp quý báu đối với sự phát triển bền vững của ĐHQGHN, cũng như những đóng góp trong việc thúc đẩy hợp tác giữa ĐHQGHN với các đối tác Ireland nói chung và đóng góp cho dự án VIBE nói riêng, ngày 19/01/2022, Phó Giám...
             </p>
@@ -234,7 +232,7 @@
       </div>
 
       <div id="new-12" class="row">
-        <div class="col col-md-4 mb-6">
+        <div class="col col-12 col-md-4 mb-6">
           <div>
             <a
               href=""
@@ -245,18 +243,18 @@
               />
             </a>
           </div>
-          <div>
-            <div class="flex justify-between items-center py-4">
+          <div id="order-content">
+            <div id="block-1" class="flex justify-between items-center py-4 new-calendar">
                 <div class="">
                   <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
                 </div>
 
-                <div class="flex">
+                <div class="flex m-calendar">
                   <img src="./assets/image/icon- calendar.svg"></img>
                   <span class="pl-3">12/01/2022</span>
                 </div>
               </div>
-            <h3 class="font-semibold text-sm line-22 small-title text-justify">
+            <h3 id="block-2" class="font-semibold text-sm line-22 small-title text-justify">
               <a
                 href=""
                 class="title-new"
@@ -264,16 +262,16 @@
                 Bắt đầu kỳ thi Tuyển sinh năm học 2022 - 2023
               </a>
             </h3>
-            <div class="w-100 pt-3 text-justify">
+            <div id="block-3" class="w-100 pt-3 text-justify">
               Đúng 6h30 sáng nay, 10/6/2021, các thí sinh của đợt 1 (mã đợt thi: 211 – đợt 1 năm 2021) kỳ thi đánh giá năng lực (ĐGNL) ...
             </div>
-            <div class="pt-3">
+            <div id="block-4" class="pt-3 see-more">
               <a class="text-pink-under" href="">Xem thêm</a>
             </div>
           </div>
         </div>
 
-        <div class="col col-md-4 mb-6">
+        <div class="col col-12 col-md-4 mb-6">
           <div>
             <a
               href=""
@@ -284,18 +282,18 @@
               />
             </a>
           </div>
-          <div>
-            <div class="flex justify-between items-center py-4">
+          <div id="order-content">
+            <div id="block-1" class="flex justify-between items-center py-4 new-calendar">
                 <div class="">
                   <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
                 </div>
 
-                <div class="flex">
+                <div class="flex m-calendar">
                   <img src="./assets/image/icon- calendar.svg"></img>
                   <span class="pl-3">12/01/2022</span>
                 </div>
               </div>
-            <h3 class="font-semibold text-sm line-22 small-title text-justify">
+            <h3 id="block-2" class="font-semibold text-sm line-22 small-title text-justify">
               <a
                 href=""
                 class="title-new"
@@ -303,16 +301,16 @@
                 Bắt đầu kỳ thi Tuyển sinh năm học 2022 - 2023
               </a>
             </h3>
-            <div class="w-100 pt-3 text-justify">
+            <div id="block-3" class="w-100 pt-3 text-justify">
               Đúng 6h30 sáng nay, 10/6/2021, các thí sinh của đợt 1 (mã đợt thi: 211 – đợt 1 năm 2021) kỳ thi đánh giá năng lực (ĐGNL) ...
             </div>
-            <div class="pt-3">
+            <div id="block-4" class="pt-3 see-more">
               <a class="text-pink-under" href="">Xem thêm</a>
             </div>
           </div>
         </div>
 
-        <div class="col col-md-4 mb-6">
+        <div class="col col-12 col-md-4 mb-6">
           <div>
             <a
               href=""
@@ -323,18 +321,18 @@
               />
             </a>
           </div>
-          <div>
-            <div class="flex justify-between items-center py-4">
+          <div id="order-content">
+            <div id="block-1" class="flex justify-between items-center py-4 new-calendar">
                 <div class="">
                   <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
                 </div>
 
-                <div class="flex">
+                <div class="flex m-calendar">
                   <img src="./assets/image/icon- calendar.svg"></img>
                   <span class="pl-3">12/01/2022</span>
                 </div>
               </div>
-            <h3 class="font-semibold text-sm line-22 small-title text-justify">
+            <h3 id="block-2" class="font-semibold text-sm line-22 small-title text-justify">
               <a
                 href=""
                 class="title-new"
@@ -342,16 +340,16 @@
                 Bắt đầu kỳ thi Tuyển sinh năm học 2022 - 2023
               </a>
             </h3>
-            <div class="w-100 pt-3 text-justify">
+            <div id="block-3" class="w-100 pt-3 text-justify">
               Đúng 6h30 sáng nay, 10/6/2021, các thí sinh của đợt 1 (mã đợt thi: 211 – đợt 1 năm 2021) kỳ thi đánh giá năng lực (ĐGNL) ...
             </div>
-            <div class="pt-3">
+            <div id="block-4" class="pt-3 see-more">
               <a class="text-pink-under" href="">Xem thêm</a>
             </div>
           </div>
         </div>
 
-        <div class="col col-md-4 mb-6">
+        <div class="col col-12 col-md-4 mb-6">
           <div>
             <a
               href=""
@@ -362,18 +360,18 @@
               />
             </a>
           </div>
-          <div>
-            <div class="flex justify-between items-center py-4">
+          <div id="order-content">
+            <div id="block-1" class="flex justify-between items-center py-4 new-calendar">
                 <div class="">
                   <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
                 </div>
 
-                <div class="flex">
+                <div class="flex m-calendar">
                   <img src="./assets/image/icon- calendar.svg"></img>
                   <span class="pl-3">12/01/2022</span>
                 </div>
               </div>
-            <h3 class="font-semibold text-sm line-22 small-title text-justify">
+            <h3 id="block-2" class="font-semibold text-sm line-22 small-title text-justify">
               <a
                 href=""
                 class="title-new"
@@ -381,16 +379,16 @@
                 Bắt đầu kỳ thi Tuyển sinh năm học 2022 - 2023
               </a>
             </h3>
-            <div class="w-100 pt-3 text-justify">
+            <div id="block-3" class="w-100 pt-3 text-justify">
               Đúng 6h30 sáng nay, 10/6/2021, các thí sinh của đợt 1 (mã đợt thi: 211 – đợt 1 năm 2021) kỳ thi đánh giá năng lực (ĐGNL) ...
             </div>
-            <div class="pt-3">
+            <div id="block-4" class="pt-3 see-more">
               <a class="text-pink-under" href="">Xem thêm</a>
             </div>
           </div>
         </div>
 
-        <div class="col col-md-4 mb-6">
+        <div class="col col-12 col-md-4 mb-6">
           <div>
             <a
               href=""
@@ -401,18 +399,18 @@
               />
             </a>
           </div>
-          <div>
-            <div class="flex justify-between items-center py-4">
+          <div id="order-content">
+            <div id="block-1" class="flex justify-between items-center py-4 new-calendar">
                 <div class="">
                   <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
                 </div>
 
-                <div class="flex">
+                <div class="flex m-calendar">
                   <img src="./assets/image/icon- calendar.svg"></img>
                   <span class="pl-3">12/01/2022</span>
                 </div>
               </div>
-            <h3 class="font-semibold text-sm line-22 small-title text-justify">
+            <h3 id="block-2" class="font-semibold text-sm line-22 small-title text-justify">
               <a
                 href=""
                 class="title-new"
@@ -420,16 +418,16 @@
                 Bắt đầu kỳ thi Tuyển sinh năm học 2022 - 2023
               </a>
             </h3>
-            <div class="w-100 pt-3 text-justify">
+            <div id="block-3" class="w-100 pt-3 text-justify">
               Đúng 6h30 sáng nay, 10/6/2021, các thí sinh của đợt 1 (mã đợt thi: 211 – đợt 1 năm 2021) kỳ thi đánh giá năng lực (ĐGNL) ...
             </div>
-            <div class="pt-3">
+            <div id="block-4" class="pt-3 see-more">
               <a class="text-pink-under" href="">Xem thêm</a>
             </div>
           </div>
         </div>
 
-        <div class="col col-md-4 mb-6">
+        <div class="col col-12 col-md-4 mb-6">
           <div>
             <a
               href=""
@@ -440,18 +438,18 @@
               />
             </a>
           </div>
-          <div>
-            <div class="flex justify-between items-center py-4">
+          <div  id="order-content">
+            <div id="block-1" class="flex justify-between items-center py-4 new-calendar">
                 <div class="">
                   <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
                 </div>
 
-                <div class="flex">
+                <div class="flex m-calendar">
                   <img src="./assets/image/icon- calendar.svg"></img>
                   <span class="pl-3">12/01/2022</span>
                 </div>
               </div>
-            <h3 class="font-semibold text-sm line-22 small-title text-justify">
+            <h3 id="block-2" class="font-semibold text-sm line-22 small-title text-justify">
               <a
                 href=""
                 class="title-new"
@@ -459,16 +457,16 @@
                 Bắt đầu kỳ thi Tuyển sinh năm học 2022 - 2023
               </a>
             </h3>
-            <div class="w-100 pt-3 text-justify">
+            <div id="block-3" class="w-100 pt-3 text-justify">
               Đúng 6h30 sáng nay, 10/6/2021, các thí sinh của đợt 1 (mã đợt thi: 211 – đợt 1 năm 2021) kỳ thi đánh giá năng lực (ĐGNL) ...
             </div>
-            <div class="pt-3">
+            <div id="block-4" class="pt-3 see-more">
               <a class="text-pink-under" href="">Xem thêm</a>
             </div>
           </div>
         </div>
 
-        <div class="col col-md-4 mb-6">
+        <div class="col col-12 col-md-4 mb-6">
           <div>
             <a
               href=""
@@ -479,18 +477,18 @@
               />
             </a>
           </div>
-          <div>
-           <div class="flex justify-between items-center py-4">
+          <div id="order-content">
+           <div id="block-1" class="flex justify-between items-center py-4 new-calendar">
                 <div class="">
                   <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
                 </div>
 
-                <div class="flex">
+                <div class="flex m-calendar">
                   <img src="./assets/image/icon- calendar.svg"></img>
                   <span class="pl-3">12/01/2022</span>
                 </div>
               </div>
-            <h3 class="font-semibold text-sm line-22 small-title text-justify">
+            <h3 id="block-2" class="font-semibold text-sm line-22 small-title text-justify">
               <a
                 href=""
                 class="title-new"
@@ -498,16 +496,16 @@
                 Bắt đầu kỳ thi Tuyển sinh năm học 2022 - 2023
               </a>
             </h3>
-            <div class="w-100 pt-3 text-justify">
+            <div id="block-3" class="w-100 pt-3 text-justify">
               Đúng 6h30 sáng nay, 10/6/2021, các thí sinh của đợt 1 (mã đợt thi: 211 – đợt 1 năm 2021) kỳ thi đánh giá năng lực (ĐGNL) ...
             </div>
-            <div class="pt-3">
+            <div id="block-4" class="pt-3 see-more">
               <a class="text-pink-under" href="">Xem thêm</a>
             </div>
           </div>
         </div>
 
-        <div class="col col-md-4 mb-6">
+        <div class="col col-12 col-md-4 mb-6">
           <div>
             <a
               href=""
@@ -518,18 +516,18 @@
               />
             </a>
           </div>
-          <div>
-            <div class="flex justify-between items-center py-4">
+          <div id="order-content">
+            <div  id="block-1" class="flex justify-between items-center py-4 new-calendar">
                 <div class="">
                   <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
                 </div>
 
-                <div class="flex">
+                <div class="flex m-calendar">
                   <img src="./assets/image/icon- calendar.svg"></img>
                   <span class="pl-3">12/01/2022</span>
                 </div>
               </div>
-            <h3 class="font-semibold text-sm line-22 small-title text-justify">
+            <h3 id="block-2" class="font-semibold text-sm line-22 small-title text-justify">
               <a
                 href=""
                 class="title-new"
@@ -537,16 +535,16 @@
                 Bắt đầu kỳ thi Tuyển sinh năm học 2022 - 2023
               </a>
             </h3>
-            <div class="w-100 pt-3 text-justify">
+            <div id="block-3" class="w-100 pt-3 text-justify">
               Đúng 6h30 sáng nay, 10/6/2021, các thí sinh của đợt 1 (mã đợt thi: 211 – đợt 1 năm 2021) kỳ thi đánh giá năng lực (ĐGNL) ...
             </div>
-            <div class="pt-3">
+            <div id="block-4" class="pt-3 see-more">
               <a class="text-pink-under" href="">Xem thêm</a>
             </div>
           </div>
         </div>
 
-        <div class="col col-md-4 mb-6">
+        <div class="col col-12 col-md-4 mb-6">
           <div>
             <a
               href=""
@@ -557,18 +555,18 @@
               />
             </a>
           </div>
-          <div>
-            <div class="flex justify-between items-center py-4">
+          <div id="order-content">
+            <div id="block-1" class="flex justify-between items-center py-4 new-calendar">
                 <div class="">
                   <a class="bg-pink text-pink py-2 px-4 rounded-full" href="">Tin tức mới</a>
                 </div>
 
-                <div class="flex">
+                <div class="flex m-calendar">
                   <img src="./assets/image/icon- calendar.svg"></img>
                   <span class="pl-3">12/01/2022</span>
                 </div>
               </div>
-            <h3 class="font-semibold text-sm line-22 small-title text-justify">
+            <h3 id="block-2" class="font-semibold text-sm line-22 small-title text-justify">
               <a
                 href=""
                 class="title-new"
@@ -576,10 +574,10 @@
                 Bắt đầu kỳ thi Tuyển sinh năm học 2022 - 2023
               </a>
             </h3>
-            <div class="w-100 pt-3 text-justify">
+            <div id="block-3" class="w-100 pt-3 text-justify">
               Đúng 6h30 sáng nay, 10/6/2021, các thí sinh của đợt 1 (mã đợt thi: 211 – đợt 1 năm 2021) kỳ thi đánh giá năng lực (ĐGNL) ...
             </div>
-            <div class="pt-3">
+            <div id="block-4" class="pt-3 see-more">
               <a class="text-pink-under" href="">Xem thêm</a>
             </div>
           </div>
@@ -587,7 +585,7 @@
       </div>
 
       <div id="page" class="flex justify-between items-center mt-8 mb-20">
-        <div class="flex">
+        <div class="flex items-center page-number">
           <p class="mr-3">Tổng 400</p>
           <select class="form-select" aria-label="Default select example">
             <option value="1">20/trang</option>
@@ -616,17 +614,15 @@
   </div>
 </div>
 
-
     <!-- footer -->
       <div id="footer" class="bg-green text-white mt-4">
         <div class="">
-          <div class="container  mx-auto">
-            <div class="grid grid-cols-4 pb-2 pt-10 gap-x-4 leading-loose">
-              <div class="col-span-2">
-                <img
-                  class=""
-                  src="./assets/image/logo-vsl-footer.svg"
-                />
+          <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 pb-2 pt-10 gap-x-4 leading-loose">
+              <div class="">
+                <div class="img-footer-vsl">
+                  <img src="./assets/image/logo-vsl-footer.svg" />
+                </div>
 
                 <div>
                   <p class="font-semibold text-base leading-6 my-2">Bản quyền thuộc về Đại học Quốc gia Hà Nội</p>
@@ -639,7 +635,8 @@
                 </div>
               </div>
 
-              <div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4">
+              <div class="mt-link">
                 <div class="font-semibold text-xl line-30 pb-4">Các liên kết khác</div>
                 <p class="font-light text-base leading-6 py-1">
                   <a
@@ -682,7 +679,7 @@
                 </p>
               </div>
 
-              <div>
+              <div class="mt-link">
                 <div class="font-semibold text-xl line-30 pb-4">Thông tin</div>
                 <p class="font-light text-base leading-6 py-1">
                   <a class="hover:text-white" href="">Email</a>
@@ -696,10 +693,11 @@
                   <a class="hover:text-white" href="">Sitemap</a>
                 </p>
               </div>
+              </div>
             </div>
 
-            <div class="flex justify-between items-center border-t py-3">
-              <div class="flex items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 border-t py-3">
+              <div class="flex justify-start items-center">
                 <a href=""
                   ><img
                     class="pr-4"
@@ -731,17 +729,31 @@
                 /></a>
               </div>
 
-              <div class="">
-                <span class="pl-4 line-22 text-sm font-semibold">Lượt truy cập</span>
-                <span class="pl-4 line-22 text-sm font-light">Hôm nay:</span>
-                <span class="pl-4 line-22 text-sm font-semibold">500</span>
-                <span class="pl-4 line-22 text-sm font-light">Toàn bộ:</span>
-                <span class="pl-4 line-22 text-sm font-semibold">5.000</span>
+              <div class="flex items-center md:justify-end mt-access">
+                <span class="md:pl-4 line-22 text-sm font-semibold">Lượt truy cập</span>
+                <span class="md:pl-4 line-22 text-sm font-light pl-access">Hôm nay:</span>
+                <span class="md:pl-4 line-22 text-sm font-semibold pl-access">500</span>
+                <span class="md:pl-4 line-22 text-sm font-light pl-access">Toàn bộ:</span>
+                <span class="md:pl-4 line-22 text-sm font-semibold pl-access">5.000</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+      $('.filtering1').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        variableWidth: true,
+        infinite: false,
+      });
+    </script>
   </body>
 </html>

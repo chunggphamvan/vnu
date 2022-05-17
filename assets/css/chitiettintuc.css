@@ -202,12 +202,6 @@
 .vnu-clor-gray {
   color: #606266;
 }
-/* .breadcrumb-item + .breadcrumb-item::before {
-  float: left;
-  padding-right: 0.5rem;
-  color: #6c757d;
-  content: var(--bs-breadcrumb-divider, ">");
-} */
 .list-channel {
   display: flex;
 }

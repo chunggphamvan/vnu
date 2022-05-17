@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #main {
   font-family: Verdana;
   font-size: 14px;
@@ -324,6 +328,184 @@
   color: #606266;
 }
 #new-12 ul {
-  list-style-type: disc;
+  /* list-style-type: disc; */
   color: #67b38b;
+}
+#new-other ul {
+  color: #01803d;
+}
+#new-other .fa-circle {
+  font-size: 10px;
+}
+#new-other li a:hover {
+  color: #01803d;
+}
+#breadcrumb-link a {
+  color: #303133;
+}
+#breadcrumb-link a:hover {
+  text-decoration: none;
+  color: #303133;
+}
+#title-link a {
+  color: #01803d;
+  text-decoration: none;
+}
+#title-link a:hover {
+  color: #01803d;
+  text-decoration: none;
+}
+#p-other-links p {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  /* footer */
+  .mt-access {
+    margin-top: 8px;
+  }
+  .pl-access {
+    padding-left: 8px;
+  }
+  .mt-link {
+    margin-top: 16px;
+  }
+  .img-footer-vsl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* header */
+  #logo-vnu img {
+    height: 56px;
+  }
+  #link-header {
+    font-size: 12px;
+    padding: 0;
+    margin-top: 8px;
+  }
+  #link-header .sitemap {
+    display: none;
+  }
+  #menu-header {
+    font-size: 12px;
+    padding: 0;
+  }
+  #menu-header input,
+  i {
+    font-size: 14px;
+  }
+  #nav-main a.nav-link {
+    font-size: 12px;
+  }
+  #nav-main .dropdown-menu .dropdown-item {
+    font-size: 12px;
+  }
+  #menu-header .collapse:not(.show) {
+    display: inherit;
+  }
+  #menu-header .dropdown-menu .dropdown-item {
+    font-size: 12px;
+  }
+  #menu-header .dropdown-menu {
+    min-width: auto;
+    position: absolute;
+    top: 80%;
+  }
+  #menu-header .dropdown-toggle {
+    white-space: inherit !important;
+  }
+  #menu-header .dropdown-item {
+    white-space: inherit !important;
+  }
+  #menu-header .navbar {
+    padding: 0rem 1rem;
+  }
+  /* content */
+  #title-link a {
+    font-size: 20px;
+  }
+  #menu-page-link {
+    display: none;
+  }
+  #breadcrumb-link {
+    padding: 0;
+  }
+  .title-page:before {
+    height: 20px;
+    top: 53%;
+  }
+  #new-12 .img-h {
+    height: 215px;
+  }
+  #details {
+    padding: 16px !important;
+  }
+  .box-shadow-v1 {
+    box-shadow: none;
+  }
+  #information {
+    padding: 0;
+    padding-top: 20px;
+  }
+  #new-other {
+    padding: 0;
+  }
+  .daotao {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 492px) and (max-width: 1023px) {
+  #menu-header {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  #menu-header .collapse:not(.show) {
+    display: inherit;
+  }
+  .link-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .menu-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .link-1 {
+    padding-right: 16px;
+  }
+  #link-header {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  #link-header {
+    margin-top: 8px;
+  }
+  #menu-header {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1280px) {
+  .link-1 {
+    padding-right: 16px;
+  }
+  #link-header {
+    font-size: 14px;
+  }
+  #menu-header {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1160px) {
+  .england {
+    display: none;
+  }
 }
