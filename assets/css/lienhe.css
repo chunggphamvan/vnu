@@ -286,6 +286,7 @@
 }
 .vnu-link-red {
   color: #c11e2f;
+  font-size: 20px;
 }
 #breadcrumb-link a:hover,
 #breadcrumb-link a:active,
@@ -299,6 +300,9 @@
 }
 .p-email p {
   margin-bottom: 0px;
+}
+.td-underline {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
@@ -316,6 +320,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  #footer p,
+  span {
+    font-size: 14px;
   }
   /* header */
   #logo-vnu img {
@@ -370,6 +378,7 @@
   .contact-info {
     box-shadow: none;
     padding: 0;
+    padding-top: 20px;
     margin-bottom: 0;
   }
   .title-page:before {
@@ -429,8 +438,73 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1160px) {
+/* @media screen and (min-width: 1024px) and (max-width: 1160px) {
   .england {
+    display: none;
+  }
+} */
+
+/* menu mobile */
+
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  #header-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 53px;
+    background: #fff;
+  }
+  #header-mobile a {
+    padding: 0px 25px;
+  }
+  #header-mobile a:before,
+  #header-mobile a:after {
+    content: "";
+    display: block;
+    background: white;
+    height: 2px;
+  }
+  #header-mobile .fa-bars {
+    font-size: 25px;
+    color: #000000;
+  }
+  #header {
+    display: none;
+  }
+  #header-mobile .vnu,
+  .vsl {
+    height: 45px;
+  }
+  #order-url {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #order-url #title-link {
+    order: 1;
+  }
+  #order-url #breadcrumb-link {
+    order: 2;
+  }
+  .title-page {
+    margin-top: 0px;
+    padding: 0px 0 0px 10px;
+  }
+  #breadcrumb-link nav {
+    border-top: 1px solid #67b38b;
+    padding-bottom: 0px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  #header-mobile {
     display: none;
   }
 }

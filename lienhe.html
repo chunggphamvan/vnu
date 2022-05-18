@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
     <link href="/assets/css/lienhe.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" />
+    <link type="text/css" rel="stylesheet" href="./mmenu/dist/mmenu.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
@@ -15,7 +16,77 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body id="main">
-    <!-- header -->
+      <!-- menu mobile -->
+      <div id="header-mobile">
+        <a href="#menu-mobile"><i class="fa-solid fa-bars"></i></a>
+        <div class="flex justify-between items-center">
+          <img class="vnu" src="./assets/image/logo-vnu.svg" alt="" />
+          <img class="vsl" src="./assets/image/logo-vsl.svg" alt="" />
+        </div>
+        <a href=""><img src="./assets/image/england.png" /></a>
+      </div>
+
+      <nav id="menu-mobile">
+        <ul>
+          <li>
+            <span>Giới thiệu</span>
+            <ul>
+              <li><a href="">Cơ cấu tổ chức</a></li>
+              <li><a href="">Lịch sử hình thành</a></li>
+              <li><a href="">Các nhiệm kỳ CLB</a></li>
+            </ul>
+          </li>
+          <li>
+            <span>Hoạt động</span>
+            <ul>
+              <li><a href="">VSL - Talk</a></li>
+              <li><a href="">VSL - Writing Camp</a></li>
+              <li><a href="">VSL - Workshop</a></li>
+              <li><a href="">VSL - Training</a></li>
+              <li><a href="">Dự án, chương trình khác</a></li>
+            </ul>
+          </li>
+          <li><a href="">Tin tức & Sự kiện</a></li>
+          <li>
+            <span>Nhà khoa học</span>
+            <ul>
+              <li><a href="">Nhà Khoa học tiêu biểu</a></li>
+              <li><a href="">Nhóm nghiên cứu</a></li>
+              <li><a href="">Tin tức KHCN</a></li>
+            </ul>
+          </li>
+          <li><a href="">Cơ hội hợp tác</a></li>
+          <li><a href="">Quyên góp, tài trợ, sản phẩm</a></li>
+          <li>
+            <span>VB liên quan</span>
+            <ul>
+              <li><a href="">Văn bản Câu lạc bộ</a></li>
+              <li><a href="">Văn bản ĐHQG</a></li>
+              <li><a href="">Văn bản Bộ ngành</a></li>
+            </ul>
+          </li>
+          <li>
+            <span>Các đơn vị thành viên và trực thuộc VNU</span>
+            <ul>
+              <li><a href="">Trường đại học thành viên</a></li>
+              <li><a href="">Trường đại học trực thuộc</a></li>
+              <li><a href="">Viện nghiên cứu</a></li>
+              <li><a href="">Trung tâm Đào tạo & Nghiên cứu</a></li>
+              <li><a href="">Đơn vị phục vụ</a></li>
+            </ul>
+          </li>
+          <li><a href="">Tài nguyên số</a></li>
+          <li><a href="">Thư viện</a></li>
+          <li><a href="">Văn bản</a></li>
+          <li><a href="">Email</a></li>
+          <li><a href="">Liên hệ</a></li>
+          <li><a href="">Sitemap</a></li>
+          <li><a href="">Đăng nhập</a></li>
+        </ul>
+      </nav>
+
+
+      <!-- menu desktop -->
     <div id="header" class="px-0 m-0">
       <div class="">
         <div class="bg-green rounded-lg">
@@ -173,6 +244,7 @@
     
     <!--Content-->
     <div id="main-content" class="">
+      <div id="order-url">
         <div id="title-link" class="container mx-auto">
             <h2 class="text-3xl uppercase font-semibold vnu-clor-green-v2 title-page">
             <a href="">Liên hệ</a>
@@ -190,12 +262,13 @@
                 </ol>
             </nav>
         </div>
+      </div>
 
         <div class="container mx-auto" id="contact">
         <div class="row justify-content-center">
             <div class="col col-12 col-md-9 align-self-center">
             <div class="p-14 text-center box-shadow-v1 mb-20 contact-info">
-                <h4 class="vnu-link-red text-lg mb-10 font-semibold">
+                <h4 class="vnu-link-red mb-10 font-semibold">
                 HỎI - ĐÁP VỀ MỌI VẤN ĐỀ CỦA CLB NHÀ KHOA HỌC ĐHQG HN - VSL
                 </h4>
 
@@ -260,10 +333,10 @@
                 </div>
 
                 <p class="flex items-center mb-4 justify-center sign-up">
-                    <a class="vnu-clor-green-v2 font-semibold text-base mr-8" href=""
+                    <a class="vnu-clor-green-v2 font-semibold text-base mr-8 mt-2 td-underline" href=""
                         >Đăng ký thành viên chính thức</a
                     >
-                    <a class="vnu-clor-green-v2 font-semibold text-base" href=""
+                    <a class="vnu-clor-green-v2 font-semibold text-base mt-2 td-underline" href=""
                         >Đăng ký hỗ trợ CLB</a
                     >
                 </p>
@@ -405,5 +478,18 @@
         </div>
       </div>
     </div>
+
+    <script src="./mmenu/dist/mmenu.js"></script>
+    <script>
+      new Mmenu(document.querySelector("#menu-mobile"));
+
+      document.addEventListener("click", function (evnt) {
+        var anchor = evnt.target.closest('a[href="#/"]');
+        if (anchor) {
+          alert("Thank you for clicking, but that's a demo link.");
+          evnt.preventDefault();
+        }
+      });
+    </script>
   </body>
 </html>
