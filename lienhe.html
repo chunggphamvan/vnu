@@ -17,20 +17,27 @@
   </head>
   <body id="main">
       <!-- menu mobile -->
-      <div id="header-mobile">
+      <div id="header-mobile"  class="flex justify-between items-center">
         <a href="#menu-mobile"><i class="fa-solid fa-bars"></i></a>
-        <div class="flex justify-between items-center">
-          <img class="vnu" src="./assets/image/logo-vnu.svg" alt="" />
-          <img class="vsl" src="./assets/image/logo-vsl.svg" alt="" />
-        </div>
+        <img class="vnu" src="./assets/image/logo-vnu.svg" alt="" />
+        <img class="vsl" src="./assets/image/logo-vsl.svg" alt="" />
         <a href=""><img src="./assets/image/england.png" /></a>
       </div>
 
       <nav id="menu-mobile">
+        <i class="fa-solid fa-xmark"></i>
         <ul>
+          <div class="flex justify-between items-center icon-search">
+            <i class="fa fa-search icon"></i>
+            <input class="input-search" type="text" placeholder="Tìm kiếm" />
+          </div>
           <li>
             <span>Giới thiệu</span>
             <ul>
+              <div class="flex justify-between items-center icon-search">
+                <i class="fa fa-search icon"></i>
+                <input class="input-search" type="text" placeholder="Tìm kiếm" />
+              </div>
               <li><a href="">Cơ cấu tổ chức</a></li>
               <li><a href="">Lịch sử hình thành</a></li>
               <li><a href="">Các nhiệm kỳ CLB</a></li>
@@ -39,6 +46,10 @@
           <li>
             <span>Hoạt động</span>
             <ul>
+              <div class="flex justify-between items-center icon-search">
+                <i class="fa fa-search icon"></i>
+                <input class="input-search" type="text" placeholder="Tìm kiếm" />
+              </div>
               <li><a href="">VSL - Talk</a></li>
               <li><a href="">VSL - Writing Camp</a></li>
               <li><a href="">VSL - Workshop</a></li>
@@ -50,6 +61,10 @@
           <li>
             <span>Nhà khoa học</span>
             <ul>
+              <div class="flex justify-between items-center icon-search">
+                <i class="fa fa-search icon"></i>
+                <input class="input-search" type="text" placeholder="Tìm kiếm" />
+              </div>
               <li><a href="">Nhà Khoa học tiêu biểu</a></li>
               <li><a href="">Nhóm nghiên cứu</a></li>
               <li><a href="">Tin tức KHCN</a></li>
@@ -57,17 +72,25 @@
           </li>
           <li><a href="">Cơ hội hợp tác</a></li>
           <li><a href="">Quyên góp, tài trợ, sản phẩm</a></li>
-          <li>
+          <li class="border-bt">
             <span>VB liên quan</span>
             <ul>
+              <div class="flex justify-between items-center icon-search">
+                <i class="fa fa-search icon"></i>
+                <input class="input-search" type="text" placeholder="Tìm kiếm" />
+              </div>
               <li><a href="">Văn bản Câu lạc bộ</a></li>
               <li><a href="">Văn bản ĐHQG</a></li>
               <li><a href="">Văn bản Bộ ngành</a></li>
             </ul>
           </li>
-          <li>
+          <li  class="border-bt">
             <span>Các đơn vị thành viên và trực thuộc VNU</span>
             <ul>
+              <div class="flex justify-between items-center icon-search">
+                <i class="fa fa-search icon"></i>
+                <input class="input-search" type="text" placeholder="Tìm kiếm" />
+              </div>
               <li><a href="">Trường đại học thành viên</a></li>
               <li><a href="">Trường đại học trực thuộc</a></li>
               <li><a href="">Viện nghiên cứu</a></li>
@@ -80,7 +103,7 @@
           <li><a href="">Văn bản</a></li>
           <li><a href="">Email</a></li>
           <li><a href="">Liên hệ</a></li>
-          <li><a href="">Sitemap</a></li>
+          <li class="border-bt"><a href="">Sitemap</a></li>
           <li><a href="">Đăng nhập</a></li>
         </ul>
       </nav>
@@ -486,10 +509,14 @@
       document.addEventListener("click", function (evnt) {
         var anchor = evnt.target.closest('a[href="#/"]');
         if (anchor) {
-          alert("Thank you for clicking, but that's a demo link.");
           evnt.preventDefault();
         }
       });
+      document.querySelector('.fa-xmark').addEventListener('click', () => {
+        document.querySelector('.mm-wrapper').classList.remove('mm-wrapper--opened')
+        document.querySelector('.mm-menu--offcanvas').classList.remove('mm-menu--opened')
+        document.querySelector('.mm-wrapper__blocker').classList.remove('mm-blocker--blocking')
+      })
     </script>
   </body>
 </html>
